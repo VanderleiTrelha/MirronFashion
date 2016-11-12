@@ -1,0 +1,140 @@
+Float : direction;
+1 - O que esta em baixo sobe;
+2 - Float Multiplos elementos inline;
+
+Clear: Float;
+
+
+especifidade de seletores
+CSS peso de sobreescrever as funcoes
+
+seletor de classe peso 10;
+seletor de tag peso 1;
+seletor de ID peso 100;
+
+imagem com caption usar tag 
+<figure>
+	<img src="caminho imagem" alt="descricao ">
+		<figcaption> </figcaption>
+</figure>
+
+toda section vem seguida de uma H2;
+
+
+lista
+
+li sempre em block quando criado, caso seja preciso em linha usar inline
+
+block consegue mexer altura e largura;
+inline nao consegue mexer segue o tamanho da fonte
+inline-block consegue mexer na altura e largura
+
+Golpe Tecnico com nome de rede social pagina: image replacement
+
+
+
+FLEX importante:
+exemplo
+http://dabblet.com/gist/b50fb951845db90733ab
+
+
+
+/**
+ * Flexbox demo
+ * Por Yuri Padilha
+ */
+footer {
+	background-image: url(http://mirrorfashion.net/assets/fundo-rodape.png);
+	padding: 25px;
+}
+
+footer .container {
+	width: 940px;
+	margin: 0 auto;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+.social {
+	display:flex;	
+}
+
+.social li {
+	list-style: none;
+	
+}
+
+.social li a {
+	height: 32px;
+	width: 32px;
+	display: block;
+	text-indent: -9999px;
+}
+
+.social li a[href*="facebook.com"] {
+	background-image: url(http://mirrorfashion.net/assets/facebook.png);
+}
+.social li a[href*="twitter.com"] {
+	background-image: url(http://mirrorfashion.net/assets/twitter.png);
+}	
+.social li a[href*="plus.google.com"] {
+	background-image: url(http://mirrorfashion.net/assets/googleplus.png);
+}
+
+/* Reset em algumas coisas bizarras */
+ul, h1, li { padding: 0; margin: 0; }
+
+
+
+
+seletor 
+
+~ irmaos proximos
++ irmao direto
+- filho proximo
+> filho direto
+
+http://dabblet.com/gist/2791297
+
+zebrar lista
+ul li:nth-child(even){
+background-color:#000;
+}
+
+ul li:nth-child(odd){
+background-color:#000;
+}
+
+
+pseudo classe
+:hover
+:active
+:visited
+
+pseudo elemento
+::after
+::before
+
+sempre tem que ter o content
+
+
+
+documentacao pesquisa no google mdn nome da propriedade;
+https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
+
+W3C -> regulamentadora da propriedade do comando css e afins.
+
+site para saber os comandos em qual navegadores funciona
+http://caniuse.com
+
+
+melhoria progressiva, dependendo das propriedades utilizadas nao ira funcionar em todos os navegadores. Entao com isso implementa as propriedades + antiga e assim
+aumentado o codigo em questao.
+
+google analitcs -> levanta os tipos de pessoas e navegadores que trafega seu site.
+
+
+transform: scale(1.1);
+transition: 0.2s;
+background-color:#000;

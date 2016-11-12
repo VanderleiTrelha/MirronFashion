@@ -1,0 +1,14 @@
+.container{
+	width: 96%; 
+}
+
+.header {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.menu-opcoes{
+	position: static;
+	text-align: center;
+}

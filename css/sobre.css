@@ -1,0 +1,66 @@
+body {
+	color: #333333;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-align: left;
+}
+
+h1{
+	background-image: url(../img/sobre-background.jpg);
+	padding: 10px;
+}
+
+h2 {
+	border-bottom: 2px solid #333333;
+	margin-top: 30px;
+}
+
+p{
+	padding: 0 45px;
+	text-indent: 15px;
+}
+
+figure{
+	background-color: #F2EDED;
+	border: 1px solid #ccc;
+	text-align: center;
+	padding: 0 45px;
+	margin: 10px;
+}
+
+figcaption {
+	font-style: italic;
+	margin-top: 10px;
+}
+
+body{
+	margin-left: auto;
+	margin-right: auto;
+	width: 940px;
+}
+
+#Pelho{
+	float: right;
+}
+
+#cd{
+	width: 550px;
+	margin: 0 auto;
+}
+
+footer img{
+	margin-right: 30px;
+	width: 94px;
+	vertical-align: middle;
+}
+
+p:first-letter{
+	font-weight: bold;
+}
+
+h1 + p{
+	text-indent: 0;
+}
+
+p:first-line{
+	font-variant: small-caps;
+}

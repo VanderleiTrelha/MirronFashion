@@ -1,0 +1,32 @@
+tamanho em geral em pixel celular:
+
+320px
+480px
+768px
+942px
+1024px
+1400px
+
+start do apache
+php -S 0000:8080
+
+cloud launcher
+Google cloud platform
+
+raspberry controlar gpio com php
+http://librehacks.blogspot.com.br/2013/02/raspberry-pi-controlar-gpio-por.html
+
+manipular arquivo com php
+https://www.vivaolinux.com.br/artigo/Manipulacao-de-arquivos-com-PHP
+
+
+
+
+	.cor label img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		max-width: 35%;
+		max-height: 100%;
+	}
+

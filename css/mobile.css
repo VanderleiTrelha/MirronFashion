@@ -1,0 +1,38 @@
+.container{
+	width: 96%; 
+}
+
+.header h1 {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.sacola{
+	display: none;
+}
+
+.menu-opcoes{
+	position: static;
+	text-align: center;
+}
+
+.menu-opcoes ul li {
+	display: inline-block;
+	margin: 5px;
+}
+
+.busca,
+.menu-departamentos,
+.destaque img {
+	margin-right: 0;
+	width: 100%;
+}
+
+.painel li {
+	width: 30%;
+}
+
+.painel img{
+	width: 100%;
+}

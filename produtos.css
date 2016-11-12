@@ -1,0 +1,32 @@
+.cor label[for=verde]:after{
+	background-color: #00FF00;
+}
+
+.cor label[for=rosa]:after{
+	background-color: #00FF00;
+}
+
+.cor label[for=azul]:after{
+	background-color: #00FF00;
+}
+
+.cor label:after{
+	width: 50px;
+	height: 50px;
+	display: block;
+	content:"";
+	border-radius: 50%;
+	box-sizing: border-box;
+}
+
+.cor input[name=cor]{
+	display: none;
+}
+
+.cor input:checked+label:after{
+	border: 8px solid rgba(0,0,0,0.5);
+}
+
+.cor input:not(:checked)+label img{
+	display: none;
+}
