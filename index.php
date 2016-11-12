@@ -224,7 +224,7 @@
 				<li>
 					<a href="http://facebook.com/mirrorfashion">Facebook</a>
 					<a href="http://twitter.com/mirrorfashion">Twitter</a>
-					<a href="http://plus.google.com/mirrorfashion">Google+</a>
+					<a href="http://plus.google.com/mirrorfashion">Google+++</a>
 				</li>
 			</ul>
 		</div>
